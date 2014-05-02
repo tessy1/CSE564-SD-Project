@@ -1,0 +1,33 @@
+Get results:
+Store
+
+Query to generate all stores Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c
+
+
+
+Query to generate Macy's Tempe Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'M1'    
+Query to generate Macy's Chicago Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'M2'
+
+Query to genrate Macy's New York Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'M3'
+
+
+Queries to generate Dillard's each branches (D1, D2, D3) Product Details:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'D1'
+
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'D2'
+
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE BranchId__c = 'D3'
+
+
+Query to generate Macy's Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE StoreId__c = 'M'
+
+
+Query to generate Dillards Product Detail:
+SELECT StartAge__c,BranchId__c,Discount__c,EndAge__c,Gender__c,Price__c,ProductId__c,StoreId__c FROM Store__c WHERE StoreId__c = 'D'
+
+
